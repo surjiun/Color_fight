@@ -1,130 +1,130 @@
 fileFormatVersion: 2
-guid: 826c1f24581a9564bbf38821f5e51522
+guid: e10265726ca4f4740bced4b269264cfe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2224315855210015670
-    second: Colorfight_playerV3-Sheet_0
+      213: 4459105941937564428
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_0
   - first:
-      213: -4486567380153126061
-    second: Colorfight_playerV3-Sheet_1
+      213: 863974693997062503
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_1
   - first:
-      213: 7851717320588524556
-    second: Colorfight_playerV3-Sheet_2
+      213: 1739752983911402963
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_2
   - first:
-      213: 2203187275803808472
-    second: Colorfight_playerV3-Sheet_3
+      213: -5963371336040621469
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_3
   - first:
-      213: -538219527286798534
-    second: Colorfight_playerV3-Sheet_4
+      213: 4717495739098285169
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_4
   - first:
-      213: -2840655779656737727
-    second: Colorfight_playerV3-Sheet_5
+      213: -2368297061914254749
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_5
   - first:
-      213: -4555077108264426148
-    second: Colorfight_playerV3-Sheet_6
+      213: -2613008420123532445
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_6
   - first:
-      213: 860526762818631806
-    second: Colorfight_playerV3-Sheet_7
+      213: 437030055587187201
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_7
   - first:
-      213: -9088000578363715631
-    second: Colorfight_playerV3-Sheet_8
+      213: 7871835757413354975
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_8
   - first:
-      213: -3576081095468310319
-    second: Colorfight_playerV3-Sheet_9
+      213: 845049151268802101
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_9
   - first:
-      213: -8674440932269716473
-    second: Colorfight_playerV3-Sheet_10
+      213: 657300778093347721
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_10
   - first:
-      213: 3520330734242096954
-    second: Colorfight_playerV3-Sheet_11
+      213: -1203766492700973411
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_11
   - first:
-      213: 5038436488177377196
-    second: Colorfight_playerV3-Sheet_12
+      213: 4913646625886869164
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_12
   - first:
-      213: 4652501480344263417
-    second: Colorfight_playerV3-Sheet_13
+      213: 2521014854459847628
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_13
   - first:
-      213: 642323974684644650
-    second: Colorfight_playerV3-Sheet_14
+      213: 5188463414269146149
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_14
   - first:
-      213: 6318820987041709346
-    second: Colorfight_playerV3-Sheet_15
+      213: -7733923258948298701
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_15
   - first:
-      213: 5935562117756771169
-    second: Colorfight_playerV3-Sheet_16
+      213: -6362519195550399066
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_16
   - first:
-      213: -7801318544320082844
-    second: Colorfight_playerV3-Sheet_17
+      213: -3806850712447784534
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_17
   - first:
-      213: -2978854618376446605
-    second: Colorfight_playerV3-Sheet_18
+      213: 5983987081814201554
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_18
   - first:
-      213: 9211845814714524955
-    second: Colorfight_playerV3-Sheet_19
+      213: -1538250417484904632
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_19
   - first:
-      213: -6353351668812751891
-    second: Colorfight_playerV3-Sheet_20
+      213: -3746613339618764336
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_20
   - first:
-      213: 4438993334340150796
-    second: Colorfight_playerV3-Sheet_21
+      213: 1213856197214870437
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_21
   - first:
-      213: -2823915415977119814
-    second: Colorfight_playerV3-Sheet_22
+      213: -3018740423178956246
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_22
   - first:
-      213: 8719118212845291851
-    second: Colorfight_playerV3-Sheet_23
+      213: 8932685647692773756
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_23
   - first:
-      213: -4413366976502976000
-    second: Colorfight_playerV3-Sheet_24
+      213: -3970977755240881447
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_24
   - first:
-      213: -2969310589072119544
-    second: Colorfight_playerV3-Sheet_25
+      213: 3118100568490003521
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_25
   - first:
-      213: -1207216613245104640
-    second: Colorfight_playerV3-Sheet_26
+      213: -3668717342909250313
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_26
   - first:
-      213: -1773897656012623177
-    second: Colorfight_playerV3-Sheet_27
+      213: -3249460128924354778
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_27
   - first:
-      213: 5965223343092185052
-    second: Colorfight_playerV3-Sheet_28
+      213: -4593443954946405773
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_28
   - first:
-      213: -4646538066248501040
-    second: Colorfight_playerV3-Sheet_29
+      213: -7045831673388458331
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_29
   - first:
-      213: 8241937076982399783
-    second: Colorfight_playerV3-Sheet_30
+      213: 8708271092458477110
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_30
   - first:
-      213: 3258445270188375035
-    second: Colorfight_playerV3-Sheet_31
+      213: 3301587490420204354
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_31
   - first:
-      213: -6780383223273243677
-    second: Colorfight_playerV3-Sheet_32
+      213: 6601367546968252534
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_32
   - first:
-      213: 1102676862362984518
-    second: Colorfight_playerV3-Sheet_33
+      213: 6854563598706648469
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_33
   - first:
-      213: -2039747799681475178
-    second: Colorfight_playerV3-Sheet_34
+      213: -1525364160819367351
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_34
   - first:
-      213: -5579706423710700980
-    second: Colorfight_playerV3-Sheet_35
+      213: 890991666454488389
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_35
   - first:
-      213: 3396680920593177154
-    second: Colorfight_playerV3-Sheet_36
+      213: 7135607318330336659
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_36
   - first:
-      213: 7521731863397767542
-    second: Colorfight_playerV3-Sheet_37
+      213: -6776696216909261651
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_37
   - first:
-      213: 1361833334320999198
-    second: Colorfight_playerV3-Sheet_38
+      213: -273372560210307842
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_38
   - first:
-      213: 4170297360584009845
-    second: Colorfight_playerV3-Sheet_39
+      213: -6781695653711955043
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_39
   - first:
-      213: -3859225810349340070
-    second: Colorfight_playerV3-Sheet_40
+      213: -348941235784363453
+    second: ColorfColorfight_playerV2_scecond_tex-Sheet_40
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -238,7 +238,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_0
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -252,14 +252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4410fdb384a121e0800000000000000
-      internalID: -2224315855210015670
+      spriteID: c0ba5059a3de1ed30800000000000000
+      internalID: 4459105941937564428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_1
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3533e151db28cb1c0800000000000000
-      internalID: -4486567380153126061
+      spriteID: 7692f9a18647dfb00800000000000000
+      internalID: 863974693997062503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_2
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -294,14 +294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0cf57a8d47e6fc60800000000000000
-      internalID: 7851717320588524556
+      spriteID: 3dd07fa0f18d42810800000000000000
+      internalID: 1739752983911402963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_3
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -315,14 +315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d252f3872b439e10800000000000000
-      internalID: 2203187275803808472
+      spriteID: 36a5d8b7d59dd3da0800000000000000
+      internalID: -5963371336040621469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_4
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_4
       rect:
         serializedVersion: 2
         x: 128
@@ -336,14 +336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3744e8013cd788f0800000000000000
-      internalID: -538219527286798534
+      spriteID: 1744f5e5169e77140800000000000000
+      internalID: 4717495739098285169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_5
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -357,14 +357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14c566c6e96f398d0800000000000000
-      internalID: -2840655779656737727
+      spriteID: 362eff5be5e122fd0800000000000000
+      internalID: -2368297061914254749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_6
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -378,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c55a26df08d19c0c0800000000000000
-      internalID: -4555077108264426148
+      spriteID: 363ae6bafaabcbbd0800000000000000
+      internalID: -2613008420123532445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_7
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_7
       rect:
         serializedVersion: 2
         x: 32
@@ -399,14 +399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e787581188431fb00800000000000000
-      internalID: 860526762818631806
+      spriteID: 10a81732584a01600800000000000000
+      internalID: 437030055587187201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_8
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_8
       rect:
         serializedVersion: 2
         x: 64
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df0610df9fe0e180800000000000000
-      internalID: -9088000578363715631
+      spriteID: fdd47d22ae06e3d60800000000000000
+      internalID: 7871835757413354975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_9
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_9
       rect:
         serializedVersion: 2
         x: 96
@@ -441,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d02f98c0353f5ec0800000000000000
-      internalID: -3576081095468310319
+      spriteID: 53e4f1fc9b73abb00800000000000000
+      internalID: 845049151268802101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_10
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_10
       rect:
         serializedVersion: 2
         x: 128
@@ -462,14 +462,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c84f66ee13e9780800000000000000
-      internalID: -8674440932269716473
+      spriteID: 98387dc33933f1900800000000000000
+      internalID: 657300778093347721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_11
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_11
       rect:
         serializedVersion: 2
         x: 160
@@ -483,14 +483,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a37e36ab62abad030800000000000000
-      internalID: 3520330734242096954
+      spriteID: d966a02b0cc5b4fe0800000000000000
+      internalID: -1203766492700973411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_12
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -504,14 +504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cafdd2d8a4f1ce540800000000000000
-      internalID: 5038436488177377196
+      spriteID: ca698c79297c03440800000000000000
+      internalID: 4913646625886869164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_13
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_13
       rect:
         serializedVersion: 2
         x: 32
@@ -525,14 +525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa16e44271019040800000000000000
-      internalID: 4652501480344263417
+      spriteID: cc3ff8937a17cf220800000000000000
+      internalID: 2521014854459847628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_14
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_14
       rect:
         serializedVersion: 2
         x: 64
@@ -546,14 +546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a259bc5704ef9e800800000000000000
-      internalID: 642323974684644650
+      spriteID: 5247f915cff110840800000000000000
+      internalID: 5188463414269146149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_15
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_15
       rect:
         serializedVersion: 2
         x: 96
@@ -567,14 +567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d77eb8536f0b750800000000000000
-      internalID: 6318820987041709346
+      spriteID: 3385146a5c59ba490800000000000000
+      internalID: -7733923258948298701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_16
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_16
       rect:
         serializedVersion: 2
         x: 128
@@ -588,14 +588,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b58235c4a5f5250800000000000000
-      internalID: 5935562117756771169
+      spriteID: 6a54d90708ac3b7a0800000000000000
+      internalID: -6362519195550399066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_17
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_17
       rect:
         serializedVersion: 2
         x: 160
@@ -609,14 +609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46c422afd162cb390800000000000000
-      internalID: -7801318544320082844
+      spriteID: aa96b9352795b2bc0800000000000000
+      internalID: -3806850712447784534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_18
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_18
       rect:
         serializedVersion: 2
         x: 0
@@ -630,14 +630,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37dd32ad18bf8a6d0800000000000000
-      internalID: -2978854618376446605
+      spriteID: 2d4df00eb846b0350800000000000000
+      internalID: 5983987081814201554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_19
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_19
       rect:
         serializedVersion: 2
         x: 32
@@ -651,14 +651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b156ab746fc07df70800000000000000
-      internalID: 9211845814714524955
+      spriteID: 8474732356907aae0800000000000000
+      internalID: -1538250417484904632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_20
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_20
       rect:
         serializedVersion: 2
         x: 64
@@ -672,14 +672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: debd747915c54d7a0800000000000000
-      internalID: -6353351668812751891
+      spriteID: 0d9984d940b510cc0800000000000000
+      internalID: -3746613339618764336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_21
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_21
       rect:
         serializedVersion: 2
         x: 96
@@ -693,14 +693,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c06eba53be87a9d30800000000000000
-      internalID: 4438993334340150796
+      spriteID: 5ab1663b7cb78d010800000000000000
+      internalID: 1213856197214870437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_22
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_22
       rect:
         serializedVersion: 2
         x: 128
@@ -714,14 +714,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf2fe214ef6fc8d0800000000000000
-      internalID: -2823915415977119814
+      spriteID: a225e4f34974b16d0800000000000000
+      internalID: -3018740423178956246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_23
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_23
       rect:
         serializedVersion: 2
         x: 160
@@ -735,14 +735,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49484791d7800970800000000000000
-      internalID: 8719118212845291851
+      spriteID: c7935f8e44647fb70800000000000000
+      internalID: 8932685647692773756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_24
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_24
       rect:
         serializedVersion: 2
         x: 0
@@ -756,14 +756,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002b91e2e1290c2c0800000000000000
-      internalID: -4413366976502976000
+      spriteID: 9d2a3ef45c044e8c0800000000000000
+      internalID: -3970977755240881447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_25
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_25
       rect:
         serializedVersion: 2
         x: 32
@@ -777,14 +777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 809ec8650c3eac6d0800000000000000
-      internalID: -2969310589072119544
+      spriteID: 14c4ac652f7b54b20800000000000000
+      internalID: 3118100568490003521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_26
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_26
       rect:
         serializedVersion: 2
         x: 64
@@ -798,14 +798,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e4398e2ea1f3fe0800000000000000
-      internalID: -1207216613245104640
+      spriteID: 7f4449aa309161dc0800000000000000
+      internalID: -3668717342909250313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_27
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_27
       rect:
         serializedVersion: 2
         x: 96
@@ -819,14 +819,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b23879fa79d167e0800000000000000
-      internalID: -1773897656012623177
+      spriteID: 6273ba7aa3997e2d0800000000000000
+      internalID: -3249460128924354778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_28
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_28
       rect:
         serializedVersion: 2
         x: 128
@@ -840,14 +840,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd7b0e2860bb8c250800000000000000
-      internalID: 5965223343092185052
+      spriteID: 37a01c16f0fc040c0800000000000000
+      internalID: -4593443954946405773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_29
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_29
       rect:
         serializedVersion: 2
         x: 160
@@ -861,14 +861,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d87de54f3e248fb0800000000000000
-      internalID: -4646538066248501040
+      spriteID: 5ae1c786c6d283e90800000000000000
+      internalID: -7045831673388458331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_30
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_30
       rect:
         serializedVersion: 2
         x: 0
@@ -882,14 +882,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72348a69a1e316270800000000000000
-      internalID: 8241937076982399783
+      spriteID: 6365ac19b6ef9d870800000000000000
+      internalID: 8708271092458477110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_31
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_31
       rect:
         serializedVersion: 2
         x: 32
@@ -903,14 +903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfb31a195b2583d20800000000000000
-      internalID: 3258445270188375035
+      spriteID: 243ae59745891dd20800000000000000
+      internalID: 3301587490420204354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_32
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_32
       rect:
         serializedVersion: 2
         x: 64
@@ -924,14 +924,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ebb7c7e16d37e1a0800000000000000
-      internalID: -6780383223273243677
+      spriteID: 670a5d4fec4cc9b50800000000000000
+      internalID: 6601367546968252534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_33
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_33
       rect:
         serializedVersion: 2
         x: 96
@@ -945,14 +945,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640203b93ce7d4f00800000000000000
-      internalID: 1102676862362984518
+      spriteID: 595ab37a64d402f50800000000000000
+      internalID: 6854563598706648469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_34
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_34
       rect:
         serializedVersion: 2
         x: 128
@@ -966,14 +966,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69dd998ee2c51b3e0800000000000000
-      internalID: -2039747799681475178
+      spriteID: 942ff31a061d4dae0800000000000000
+      internalID: -1525364160819367351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_35
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_35
       rect:
         serializedVersion: 2
         x: 160
@@ -987,14 +987,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4a22c7f196e092b0800000000000000
-      internalID: -5579706423710700980
+      spriteID: 5456ad033307d5c00800000000000000
+      internalID: 890991666454488389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_36
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1008,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a9d470d4f632f20800000000000000
-      internalID: 3396680920593177154
+      spriteID: 395e1c9cc05c60360800000000000000
+      internalID: 7135607318330336659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_37
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_37
       rect:
         serializedVersion: 2
         x: 32
@@ -1029,14 +1029,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6799f85274f826860800000000000000
-      internalID: 7521731863397767542
+      spriteID: da4d368f1b654f1a0800000000000000
+      internalID: -6776696216909261651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_38
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_38
       rect:
         serializedVersion: 2
         x: 64
@@ -1050,14 +1050,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1b2d77c33436e210800000000000000
-      internalID: 1361833334320999198
+      spriteID: ef45359da19c43cf0800000000000000
+      internalID: -273372560210307842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_39
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_39
       rect:
         serializedVersion: 2
         x: 96
@@ -1071,14 +1071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 578eb51ba5fdfd930800000000000000
-      internalID: 4170297360584009845
+      spriteID: d9b30b1ebb392e1a0800000000000000
+      internalID: -6781695653711955043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colorfight_playerV3-Sheet_40
+      name: ColorfColorfight_playerV2_scecond_tex-Sheet_40
       rect:
         serializedVersion: 2
         x: 128
@@ -1092,8 +1092,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5acb129296417ac0800000000000000
-      internalID: -3859225810349340070
+      spriteID: 34256997bcf482bf0800000000000000
+      internalID: -348941235784363453
       vertices: []
       indices: 
       edges: []

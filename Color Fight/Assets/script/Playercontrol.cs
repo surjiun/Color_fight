@@ -26,7 +26,14 @@ public class Playercontrol : MonoBehaviour
     public GameObject sword;
     public bool canMove = true;
     private const float MoveSize = 5f;
-    
+    public Transform wallcheak;
+    public LayerMask w_layer;
+   
+    public bool iswall;
+    public float is_right;
+    public float slide_speed;
+    public float wallch_distanse;
+    public float walljump_power;
     Vector2 move;
     SpriteRenderer sr;
 
@@ -46,7 +53,13 @@ public class Playercontrol : MonoBehaviour
             if(rig.velocity.y<=0.01f)
                 rig.velocity = new Vector2(0, rig.velocity.y);
         }
-           
+        
+        
+        //wall jump
+        iswall = Physics2D.Raycast(wallcheak.position, is_right * Vector2.right, wallch_distanse, w_layer);
+        animator.SetBool("is_slide", iswall);
+       
+        
         //is_ground = Physics2D.OverlapCircle(chkPos.position, check_Radius, ground_mask);
         move.x = Input.GetAxisRaw("Horizontal");
 
@@ -115,20 +128,9 @@ public class Playercontrol : MonoBehaviour
 
 
        
-        if (Input.GetButtonDown("Jump") && is_ground == true)
+        if (Input.GetButtonDown("Jump") && is_ground == true && iswall == false)
         {
-            is_ground = false;
-            is_jump = true;
-            rig.AddForce(Vector2.up * jump_power, ForceMode2D.Impulse);
-            animator.SetBool("is_jump", true);
-            
-            if (rig.velocity.y > 0)
-            {
-
-                animator.SetBool("is_onair", true);
-
-            }
-
+            Jump();
         }
 
 
@@ -165,10 +167,20 @@ public class Playercontrol : MonoBehaviour
         {
             if(!is_jump)
                 rig.velocity=new Vector2(0,rig.velocity.y);
-            transform.position += new Vector3(move.x * speed * Time.deltaTime, 0);   
+            transform.position += new Vector3(move.x * speed * Time.deltaTime, 0);  
+            
         }
         Flip();
 
+        if (iswall)
+        {
+            animator.SetBool("is_jump", false);
+            rig.velocity = new Vector2(rig.velocity.x, rig.velocity.y * slide_speed);
+            if (Input.GetAxis("Jump") != 0)
+            {
+              
+            }
+        }
     }
 
     //filp
@@ -178,13 +190,16 @@ public class Playercontrol : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
             left_check = false;
+            is_right = 1;
         }
         else if (rig.velocity.x < 0 || move.x<0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
             left_check = true;
+            is_right = -1;
         }
     }
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -197,5 +212,21 @@ public class Playercontrol : MonoBehaviour
 
         }
             
+    }
+    void Jump()
+    {
+        is_ground = false;
+        is_jump = true;
+        rig.AddForce(Vector2.up * jump_power, ForceMode2D.Impulse);
+        animator.SetBool("is_jump", true);
+
+        if (rig.velocity.y > 0)
+        {
+
+            animator.SetBool("is_onair", true);
+
+        }
+
+
     }
 }

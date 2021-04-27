@@ -223,13 +223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  d_speed: 3
-  jump_power: 17
+  d_speed: 4
+  jump_power: 10
   rig: {fileID: 6059274476084918769}
   animator: {fileID: 6059274476084918782}
   is_ground: 1
   chkPos: {fileID: 8764915693936755386}
-  checkRadius: 0
+  check_Radius: 0
   ground_mask:
     serializedVersion: 2
     m_Bits: 8
@@ -241,6 +241,7 @@ MonoBehaviour:
   dash_count: 0
   left_check: 0
   sword: {fileID: 6059274474916465046}
+  canMove: 1
 --- !u!212 &6059274476084918768
 SpriteRenderer:
   m_ObjectHideFlags: 0

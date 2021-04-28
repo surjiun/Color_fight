@@ -28,7 +28,7 @@ public class Playercontrol : MonoBehaviour
     private const float MoveSize = 5f;
     public Transform wallcheak;
     public LayerMask w_layer;
-
+    public bool iswall_jump;
     public bool iswall;
     public float is_right;
     public float slide_speed;
@@ -55,7 +55,7 @@ public class Playercontrol : MonoBehaviour
         }
 
 
-        //wall jump
+        //wall slide
         iswall = Physics2D.Raycast(wallcheak.position, is_right * Vector2.right, wallch_distanse, w_layer);
         animator.SetBool("is_slide", iswall);
 
@@ -163,7 +163,7 @@ public class Playercontrol : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (canMove)
+        if (canMove && !iswall_jump)
         {
             if (!is_jump)
                 rig.velocity = new Vector2(0, rig.velocity.y);
@@ -171,18 +171,31 @@ public class Playercontrol : MonoBehaviour
 
         }
         Flip();
+        //wallslide
 
         if (iswall)
         {
+            iswall_jump = false;
             animator.SetBool("is_jump", false);
             rig.velocity = new Vector2(rig.velocity.x, rig.velocity.y * slide_speed);
-            if (Input.GetAxis("Jump") != 0)
+            //walljump
+            if (Input.GetButtonDown("Jump") && !iswall_jump)
             {
-
+                iswall_jump = true;
+                Invoke("FreezeX",0.3f);
+                rig.velocity = new Vector2(is_right * walljump_power, 0.8f * walljump_power);
+                Flip();
+                            
             }
         }
     }
+    
 
+    //wall jump delay
+    void FreezeX()
+    {
+        iswall_jump = false;
+    }
     //filp
     void Flip()
     {

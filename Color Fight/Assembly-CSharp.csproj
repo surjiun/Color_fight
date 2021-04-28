@@ -56,7 +56,6 @@
     <Compile Include="Assets\script\SwordAnimation.cs" />
     <Compile Include="Assets\script\movecam.cs" />
     <Compile Include="Assets\script\Playercontrol.cs" />
-    <Compile Include="Assets\script\Playercontrol1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

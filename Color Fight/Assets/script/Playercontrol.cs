@@ -34,6 +34,7 @@ public class Playercontrol : MonoBehaviour
     public float slide_speed;
     public float wallch_distanse;
     public float walljump_power;
+    public bool is_attack;
     Vector2 move;
     SpriteRenderer sr;
 
@@ -73,8 +74,9 @@ public class Playercontrol : MonoBehaviour
         }
 
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1")&& !is_attack)
         {
+            is_attack = true;
             sword.SetActive(true);
             animator.SetTrigger("attack");
             AttackDash();
@@ -95,6 +97,7 @@ public class Playercontrol : MonoBehaviour
         {
             yield return new WaitForSeconds(0.3f);
             canMove = true;
+            is_attack = false;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && is_dash == false && dash_count < 2)
@@ -142,7 +145,9 @@ public class Playercontrol : MonoBehaviour
 
             if (is_ground == true)
             {
+                
                 animator.SetTrigger("ground");
+                
                 is_jump = false;
                 /*
                 animator.SetBool("is_droping", false);
@@ -173,23 +178,24 @@ public class Playercontrol : MonoBehaviour
         Flip();
         //wallslide
 
-        if (iswall)
-        {
-            iswall_jump = false;
-            animator.SetBool("is_jump", false);
-            rig.velocity = new Vector2(rig.velocity.x, rig.velocity.y * slide_speed);
-            //walljump
-            if (Input.GetButtonDown("Jump") && !iswall_jump)
-            {
-                iswall_jump = true;
-                Invoke("FreezeX",0.3f);
-                rig.velocity = new Vector2(is_right * walljump_power, 0.8f * walljump_power);
-                Flip();
-                            
-            }
-        }
-    }
-    
+        if (iswall&& is_jump==true)
+       {
+           iswall_jump = false;
+          
+           animator.SetBool("is_jump", false);
+           rig.velocity = new Vector2(rig.velocity.x, rig.velocity.y * slide_speed);
+           //walljump
+           if (Input.GetAxis("Jump") != 0 && !iswall_jump)
+           {
+               iswall_jump = true;
+               Invoke("FreezeX",0.3f);
+               rig.velocity = new Vector2(is_right * walljump_power, 0.9f * walljump_power);
+               Flip();
+
+           }
+       }
+    }   
+
 
     //wall jump delay
     void FreezeX()
@@ -233,13 +239,7 @@ public class Playercontrol : MonoBehaviour
         rig.AddForce(Vector2.up * jump_power, ForceMode2D.Impulse);
         animator.SetBool("is_jump", true);
 
-        if (rig.velocity.y > 0)
-        {
-
-            animator.SetBool("is_onair", true);
-
-        }
-
+        
 
     }
 }

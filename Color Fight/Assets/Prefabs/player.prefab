@@ -277,11 +277,13 @@ MonoBehaviour:
   w_layer:
     serializedVersion: 2
     m_Bits: 64
+  iswall_jump: 0
   iswall: 0
   is_right: 0
   slide_speed: 0.3
   wallch_distanse: 0.1
   walljump_power: 10
+  is_attack: 0
 --- !u!212 &6059274476084918768
 SpriteRenderer:
   m_ObjectHideFlags: 0

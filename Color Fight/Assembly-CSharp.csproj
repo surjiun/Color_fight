@@ -54,9 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\script\SwordAnimation.cs" />
+    <Compile Include="Assets\script\Glow_control.cs" />
     <Compile Include="Assets\script\Playercontrol.cs" />
     <Compile Include="Assets\script\movecam.cs" />
-    <Compile Include="Assets\script\Glow_control.cs" />
+    <Compile Include="Assets\script\Enemy.cs" />
+    <Compile Include="Assets\script\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

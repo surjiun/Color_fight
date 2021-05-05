@@ -86,6 +86,20 @@ public class Playercontrol : MonoBehaviour
             Vector2 input = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 dir = input - (Vector2)transform.position;
             dir.Normalize();
+
+            if (dir.x > 0)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                left_check = false;
+                is_right = 1;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                left_check = true;
+                is_right = -1;
+            }
+            
             if (dir.y <= 0.3f)
                 dir.y = 0.3f;
             rig.velocity = dir * 10f;
@@ -180,16 +194,19 @@ public class Playercontrol : MonoBehaviour
 
         if (iswall&& is_jump==true)
        {
-           iswall_jump = false;
+           //iswall_jump = false;
           
            animator.SetBool("is_jump", false);
            rig.velocity = new Vector2(rig.velocity.x, rig.velocity.y * slide_speed);
            //walljump
-           if (Input.GetAxis("Jump") != 0 && !iswall_jump)
+
+           if (Input.GetButtonDown("Jump") && !iswall_jump)
            {
                iswall_jump = true;
                Invoke("FreezeX",0.3f);
-               rig.velocity = new Vector2(is_right * walljump_power, 0.9f * walljump_power);
+               rig.velocity=Vector2.zero;
+               rig.velocity = new Vector2(is_right * walljump_power*-1,  walljump_power);
+               //rig.velocity = new Vector2(is_right * walljump_power, 0.9f * walljump_power);
                Flip();
 
            }
@@ -205,6 +222,8 @@ public class Playercontrol : MonoBehaviour
     //filp
     void Flip()
     {
+        if (is_attack)
+            return;
         if (rig.velocity.x > 0 || move.x > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
@@ -241,5 +260,17 @@ public class Playercontrol : MonoBehaviour
 
         
 
+    }
+    //get attack
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+      
+        if (other.CompareTag("Bullet"))
+        {
+            animator.Play("Player_die");
+            canMove = false;
+        }
+
+        
     }
 }

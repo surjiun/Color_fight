@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.CompareTag("Sword"))
         {
-            if (other.transform.parent.GetComponent<SpriteRenderer>().material.color == GetComponent<SpriteRenderer>().material.color)
+            if (other.transform.parent.GetComponent<SpriteRenderer>().material.name == GetComponent<SpriteRenderer>().material.name)
             {
                 canMove = false;
                 StopAllCoroutines();

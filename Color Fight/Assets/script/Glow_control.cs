@@ -6,42 +6,39 @@ using UnityEngine;
 
 public class Glow_control : MonoBehaviour
 {
-    public Material d_material;
-    public Material c_material;
+    public Material y_material;
+    public Material b_material;
+    public Material r_material;
+
     public GameObject sword;
 
 
     private void Start()
     {
-        d_material = GetComponent<SpriteRenderer>().material;
+        y_material = GetComponent<SpriteRenderer>().material;
         
     }
     private void Update()
     {
         if (Input.GetKey(KeyCode.Alpha1))
         {
-            D();
-            
-           
+            GetComponent<SpriteRenderer>().material = y_material;
+            sword.GetComponent<SpriteRenderer>().material = y_material;
+
+
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
-            Change();
-            
+            GetComponent<SpriteRenderer>().material = b_material;
+            sword.GetComponent<SpriteRenderer>().material = b_material;
+        }
+        if (Input.GetKey(KeyCode.Alpha3))
+        {
+            GetComponent<SpriteRenderer>().material = r_material;
+            sword.GetComponent<SpriteRenderer>().material = r_material;
         }
     }
-    void Change()
-    {
-        GetComponent<SpriteRenderer>().material = c_material;
-        sword.GetComponent<SpriteRenderer>().material = c_material;
-    }
-
-    void D()
-    {
-        GetComponent<SpriteRenderer>().material = d_material;
-        sword.GetComponent<SpriteRenderer>().material = d_material;
-    }
-
+    
    
 
 }

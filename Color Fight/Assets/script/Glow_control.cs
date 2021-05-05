@@ -9,7 +9,7 @@ public class Glow_control : MonoBehaviour
     public Material y_material;
     public Material b_material;
     public Material r_material;
-
+    
     public GameObject sword;
 
 
@@ -25,12 +25,12 @@ public class Glow_control : MonoBehaviour
             GetComponent<SpriteRenderer>().material = y_material;
             sword.GetComponent<SpriteRenderer>().material = y_material;
 
-
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             GetComponent<SpriteRenderer>().material = b_material;
             sword.GetComponent<SpriteRenderer>().material = b_material;
+
         }
         if (Input.GetKey(KeyCode.Alpha3))
         {
@@ -38,7 +38,9 @@ public class Glow_control : MonoBehaviour
             sword.GetComponent<SpriteRenderer>().material = r_material;
         }
     }
+  
     
+
    
 
 }

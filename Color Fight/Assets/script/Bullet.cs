@@ -6,7 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed;
-    
+
     private void Start()
     {
         Destroy(gameObject,2f);
@@ -23,7 +23,6 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
-      
 
         if (other.CompareTag("Sword"))
         {

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_yellow
-  m_Shader: {fileID: -6465566751694194690, guid: 04a67074ae206b042a6e82d7af62a092,
+  m_Name: Sword_bule
+  m_Shader: {fileID: -6465566751694194690, guid: b503e22f0310d8948a38c44d97407972,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -21,11 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Emission:
-        m_Texture: {fileID: 2800000, guid: e10265726ca4f4740bced4b269264cfe, type: 3}
+        m_Texture: {fileID: 2800000, guid: de301408816edbf429a698c0435dd3d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 826c1f24581a9564bbf38821f5e51522, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ee67acbb73964d448a82f385360f38d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -43,5 +43,4 @@ Material:
     m_Floats: []
     m_Colors:
     - Color_1256EBB7: {r: 0.6901961, g: 9.286275, b: 11.98431, a: 0}
-    - Color_73fd8e824e724f60a2d7be416d828f06: {r: 1, g: 0.5934285, b: 0, a: 0}
   m_BuildTextureStacks: []

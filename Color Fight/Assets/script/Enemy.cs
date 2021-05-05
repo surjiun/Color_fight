@@ -39,6 +39,12 @@ public class Enemy : MonoBehaviour
         }
         else
         {
+            if (target == null)
+            {
+                canMove = false;
+                anim.Play("Idle");
+            }
+              
             if(canMove)
             {
                 transform.localScale=new Vector3(Mathf.Abs(transform.localScale.x)*(transform.position.x>target.transform.position.x ? -1 : 1),transform.localScale.y);
@@ -74,7 +80,6 @@ public class Enemy : MonoBehaviour
     {
         attack.SetActive(true);
         //공격딜레이 원하는대로 넣고싶으면 저거대신에 WaitForsecond
-
         yield return new WaitUntil(()=>anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f);
         attack.SetActive(false);
         canMove = true;

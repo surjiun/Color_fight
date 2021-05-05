@@ -10,7 +10,7 @@ Material:
   m_Name: Player_red
   m_Shader: {fileID: -6465566751694194690, guid: 04a67074ae206b042a6e82d7af62a092,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -42,6 +42,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_73fd8e824e724f60a2d7be416d828f06: {r: 0.02264148, g: 0.5819089, b: 1,
-        a: 0}
+    - Color_4f36bd4740ac4d828ef6f65e8c2effa4: {r: 0, g: 0, b: 0, a: 0}
+    - Color_73fd8e824e724f60a2d7be416d828f06: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

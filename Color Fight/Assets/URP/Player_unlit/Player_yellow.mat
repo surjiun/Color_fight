@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_yellow
-  m_Shader: {fileID: -6465566751694194690, guid: 04a67074ae206b042a6e82d7af62a092, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 04a67074ae206b042a6e82d7af62a092,
+    type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -42,5 +43,6 @@ Material:
     m_Floats: []
     m_Colors:
     - Color_1256EBB7: {r: 0.6901961, g: 9.286275, b: 11.98431, a: 0}
-    - Color_73fd8e824e724f60a2d7be416d828f06: {r: 1, g: 0.5934285, b: 0, a: 0}
+    - Color_4f36bd4740ac4d828ef6f65e8c2effa4: {r: 0, g: 0, b: 0, a: 0}
+    - Color_73fd8e824e724f60a2d7be416d828f06: {r: 1, g: 0.604977, b: 0, a: 0}
   m_BuildTextureStacks: []

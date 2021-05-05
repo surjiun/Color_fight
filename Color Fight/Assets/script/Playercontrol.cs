@@ -264,13 +264,17 @@ public class Playercontrol : MonoBehaviour
     //get attack
     private void OnTriggerEnter2D(Collider2D other)
     {
-      
         if (other.CompareTag("Bullet"))
         {
-            animator.Play("Player_die");
-            canMove = false;
+            StartCoroutine(die());
         }
+    }
 
-        
+    IEnumerator die()
+    {
+        animator.Play("Player_die");
+        canMove = false;
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
     }
 }

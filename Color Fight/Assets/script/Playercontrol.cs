@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+
 
 public class Playercontrol : MonoBehaviour
 {
@@ -35,6 +38,7 @@ public class Playercontrol : MonoBehaviour
     public float wallch_distanse;
     public float walljump_power;
     public bool is_attack;
+    
     Vector2 move;
     SpriteRenderer sr;
 
@@ -76,10 +80,14 @@ public class Playercontrol : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1")&& !is_attack)
         {
+         
             is_attack = true;
             sword.SetActive(true);
             animator.SetTrigger("attack");
             AttackDash();
+            
+            
+
         }
         void AttackDash()
         {
@@ -114,7 +122,7 @@ public class Playercontrol : MonoBehaviour
             is_attack = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && is_dash == false && dash_count < 2)
+        if (Mathf.Abs(move.x) > 0.1 && is_dash == false && dash_count < 2 && Input.GetKeyDown(KeyCode.S))
         {
             is_dash = true;
             if (is_jump == true)
@@ -161,7 +169,7 @@ public class Playercontrol : MonoBehaviour
             {
                 
                 animator.SetTrigger("ground");
-                
+             
                 is_jump = false;
                 /*
                 animator.SetBool("is_droping", false);
@@ -218,6 +226,7 @@ public class Playercontrol : MonoBehaviour
         if (other.CompareTag("Bullet"))
         {
             StartCoroutine(die());
+            
         }
     }
 
@@ -227,7 +236,12 @@ public class Playercontrol : MonoBehaviour
         canMove = false;
         yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
+        if (Input.anyKey)
+        {
+            SceneManager.LoadScene("Stage1");
+        }
     }
+    
     //wall jump delay
     void FreezeX()
     {
@@ -251,9 +265,9 @@ public class Playercontrol : MonoBehaviour
             is_right = -1;
         }
     }
-
-
-    private void OnCollisionEnter2D(Collision2D other)
+    
+    
+   private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {

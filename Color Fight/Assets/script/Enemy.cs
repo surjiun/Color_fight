@@ -79,7 +79,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Attack1()
     {
         attack.SetActive(true);
-        //공격딜레이 원하는대로 넣고싶으면 저거대신에 WaitForsecond
+        //공격딜레이WaitForsecond
         yield return new WaitUntil(()=>anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f);
         attack.SetActive(false);
         canMove = true;
@@ -88,8 +88,9 @@ public class Enemy : MonoBehaviour
     {
         GameObject b=Instantiate(attack, transform.GetChild(0).transform.position, quaternion.identity);
         b.transform.localScale=new Vector3(b.transform.localScale.x*(transform.localScale.x>0 ? 1 : -1),b.transform.localScale.y);
-        //공격딜레이 원하는대로 넣고싶으면 저거대신에 WaitForsecond
-        yield return new WaitUntil(()=>anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f);
+        //공격딜레이 WaitForsecond
+        yield return new WaitForSeconds(0.5f);
+        //yield return new WaitUntil(()=>anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f);
         canMove = true;
     }
     private void OnTriggerEnter2D(Collider2D other)

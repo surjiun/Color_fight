@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sword_yellow
+  m_Name: Bullet_yellow
   m_Shader: {fileID: -6465566751694194690, guid: b503e22f0310d8948a38c44d97407972,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
@@ -42,5 +42,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_1256EBB7: {r: 1, g: 0.5, b: 0, a: 0}
+    - Color_1256EBB7: {r: 1, g: 0.5, b: 0, a: 0.87058824}
   m_BuildTextureStacks: []

@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 9876469438dd71f438c43770a06703f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2963649163853998855
+    second: Colorfight_tileset_0
+  - first:
+      213: 170909924932225483
+    second: Colorfight_tileset_1
+  - first:
+      213: -6129289600861568584
+    second: Colorfight_tileset_2
+  - first:
+      213: -6862485166404138345
+    second: Colorfight_tileset_3
+  - first:
+      213: 5430082562723553867
+    second: Colorfight_tileset_4
+  - first:
+      213: 3463256712687967234
+    second: Colorfight_tileset_5
+  - first:
+      213: 4667281640075810054
+    second: Colorfight_tileset_6
+  - first:
+      213: -8416135505808716683
+    second: Colorfight_tileset_7
+  - first:
+      213: -5527629759083241653
+    second: Colorfight_tileset_8
+  - first:
+      213: 1538581408112507917
+    second: Colorfight_tileset_9
+  - first:
+      213: -3405130096975257732
+    second: Colorfight_tileset_10
+  - first:
+      213: -4970362238070608287
+    second: Colorfight_tileset_11
+  - first:
+      213: -59749114135257359
+    second: Colorfight_tileset_12
+  - first:
+      213: 6207532299083085535
+    second: Colorfight_tileset_13
+  - first:
+      213: 3667580527285936736
+    second: Colorfight_tileset_14
+  - first:
+      213: -8428023443752838265
+    second: Colorfight_tileset_15
+  - first:
+      213: -3475493740717367577
+    second: Colorfight_tileset_16
+  - first:
+      213: -289932844365772051
+    second: Colorfight_tileset_17
+  - first:
+      213: 976045037830294604
+    second: Colorfight_tileset_18
+  - first:
+      213: -6655563059540001956
+    second: Colorfight_tileset_19
+  - first:
+      213: 7546416377646193105
+    second: Colorfight_tileset_20
+  - first:
+      213: -3740589020470405133
+    second: Colorfight_tileset_21
+  - first:
+      213: -3483631883664926507
+    second: Colorfight_tileset_22
+  - first:
+      213: 3222581140409427484
+    second: Colorfight_tileset_23
+  - first:
+      213: -8699350461412417946
+    second: Colorfight_tileset_24
+  - first:
+      213: 5297054389148050168
+    second: Colorfight_tileset_25
+  - first:
+      213: -1293321682138157487
+    second: Colorfight_tileset_26
+  - first:
+      213: 7540982738512870013
+    second: Colorfight_tileset_27
+  - first:
+      213: -4784002859869781811
+    second: Colorfight_tileset_28
+  - first:
+      213: -2680804357530188199
+    second: Colorfight_tileset_29
+  - first:
+      213: -1280959880602760881
+    second: Colorfight_tileset_30
+  - first:
+      213: 855045189267941994
+    second: Colorfight_tileset_31
+  - first:
+      213: 1979859808579679177
+    second: Colorfight_tileset_32
+  - first:
+      213: -3463039095944147561
+    second: Colorfight_tileset_33
+  - first:
+      213: -8914478090690026543
+    second: Colorfight_tileset_34
+  - first:
+      213: 3353465858245854947
+    second: Colorfight_tileset_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colorfight_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4599d99c00fd6d0800000000000000
+      internalID: -2963649163853998855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc98c24dba13f5200800000000000000
+      internalID: 170909924932225483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18627159360faa0800000000000000
+      internalID: -6129289600861568584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a0814a91e83c0a0800000000000000
+      internalID: -6862485166404138345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b422e2c22578b5b40800000000000000
+      internalID: 5430082562723553867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cd0cd81a5ff0030800000000000000
+      internalID: 3463256712687967234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605db6f5ce385c040800000000000000
+      internalID: 4667281640075810054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c08ba1951e33b80800000000000000
+      internalID: -8416135505808716683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f17ff450ae943b0800000000000000
+      internalID: -5527629759083241653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cf09093a32a5510800000000000000
+      internalID: 1538581408112507917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f5ccbc73c8eb0d0800000000000000
+      internalID: -3405130096975257732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e29cae0e9b50bb0800000000000000
+      internalID: -4970362238070608287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fed25c4f7abb2ff0800000000000000
+      internalID: -59749114135257359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd67c92bcb5952650800000000000000
+      internalID: 6207532299083085535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a402de0dd5e230800000000000000
+      internalID: 3667580527285936736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b927cd455a90b80800000000000000
+      internalID: -8428023443752838265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee92755bd094cfc0800000000000000
+      internalID: -3475493740717367577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0cda3d93f9fbf0800000000000000
+      internalID: -289932844365772051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c48a46acb9b8d00800000000000000
+      internalID: 976045037830294604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bf7e7f8a0b2a3a0800000000000000
+      internalID: -6655563059540001956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d99acc76b14ab860800000000000000
+      internalID: 7546416377646193105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79228ba12c61cc0800000000000000
+      internalID: -3740589020470405133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d85de54247a7afc0800000000000000
+      internalID: -3483631883664926507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162af52978e8bc20800000000000000
+      internalID: 3222581140409427484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ed1e2b8d2b54780800000000000000
+      internalID: -8699350461412417946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e715e6eae28940800000000000000
+      internalID: 5297054389148050168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e28db48c23d0ee0800000000000000
+      internalID: -1293321682138157487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a796ac8d3f6a860800000000000000
+      internalID: 7540982738512870013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc04205eebecb9db0800000000000000
+      internalID: -4784002859869781811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956081de3aedbcad0800000000000000
+      internalID: -2680804357530188199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49452186cd193ee0800000000000000
+      internalID: -1280959880602760881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ae835c11bbddb00800000000000000
+      internalID: 855045189267941994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f6739100e97b10800000000000000
+      internalID: 1979859808579679177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d85fa4a40d0ffc0800000000000000
+      internalID: -3463039095944147561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d32b6e4869694480800000000000000
+      internalID: -8914478090690026543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorfight_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6052f3e67e98e20800000000000000
+      internalID: 3353465858245854947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
